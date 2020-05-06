@@ -1,0 +1,6 @@
+version: '2.4'
+services:
+  test:
+    image: javatest/javatest-prod
+    ports:
+      - 1234:8098
